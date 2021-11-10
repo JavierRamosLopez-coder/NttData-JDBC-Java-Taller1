@@ -23,14 +23,14 @@ public class NttDataJDBCMain {
 	public static void main(String[] args) {
 
 		// Llamada al método estático que conecta con la BBDD y realiza la consulta
-		establishConnectionMySql();
+		establishConnectionMyBbdd();
 
 	}
 
 	/**
 	 * Conexión con la BBDD y muestra de datos
 	 */
-	private static void establishConnectionMySql() {
+	private static void establishConnectionMyBbdd() {
 
 		try {
 
